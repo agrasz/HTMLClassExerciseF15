@@ -38,12 +38,12 @@ h3 {
     font-size: 1.17em;
 }
 
-#list{
+.list{
     color: orange;
     font-weight: bold;
 }
 
-#list:hover{
+.list:hover{
     color:green;
 }
 
