@@ -1,0 +1,52 @@
+/*
+Copyright (c) 2015 Lexa Grasz
+*/
+
+body {
+  font-family: Franklin Gothic, Helvetica Neue, sans-serif;
+}
+
+header{
+    text-indent: 50px;
+}
+
+footer{
+    font-size: 70%;
+    text-align: center;
+    
+}
+#capital::first-letter { 
+    font-size: 200%;
+}
+
+#pic{
+    float: left;
+}
+
+#orange {
+    color: orange;
+    text-shadow: 2.5px 2.5px black;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+
+#list{
+    color: orange;
+    font-weight: bold;
+}
+
+#list:hover{
+    color:green;
+}
+
+ul{
+    line-height: 1.7;
+}
