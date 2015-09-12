@@ -27,6 +27,7 @@ footer{
     border-top-color: black;
     background: linear-gradient(45deg, black, orange 75%, white);
     line-height: 2;   
+    clear: both;
 }
 header{
     text-indent: 50px;
@@ -37,7 +38,7 @@ header{
 }
 
 main{
-    padding:0px 20px 0px 20px; 
+    padding:0px 10px 0px 10px; 
 }
 
 h1 {
@@ -57,6 +58,10 @@ h3{
     font-size: 1.17em;
 }
 
+.cattag{
+    color: orange;
+    font-weight: bold;
+}
 .list{
     color: orange;
     font-weight: bold;
@@ -77,4 +82,17 @@ ul{
 #capital::first-letter{
     font-size: 200%
 }
+section{
+    float: right;
+    width: 600px;
+    height: 100%;
+}
+
+#sidebar{
+    float: left;
+    width: 160px;
+    height: 100%;
+    
+}
+
 
