@@ -37,9 +37,9 @@ header{
    
 }
 
-main{
+/*main{
     padding:0px 10px 0px 10px; 
-}
+}*/
 
 h1 {
     padding: 0;
@@ -63,7 +63,7 @@ h3{
     font-weight: bold;
 }
 .list{
-    color: orange;
+    color: black;
     font-weight: bold;
 }
 
@@ -73,6 +73,10 @@ h3{
 
 ul{
     line-height: 1.7;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
 }
 
 #pic{
@@ -92,7 +96,54 @@ section{
     float: left;
     width: 160px;
     height: 100%;
+    padding: 15px;
     
 }
 
+a.list{
+    display: block;
+    background-color: orange;
+    width: 150px;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+}
+.hrz{
+    display: inline;
+    float: left;
+}
+
+#horizontalnav{
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#horizontalnav ul, #horizontalnav li{
+    float: left;
+}
+
+a.horz{
+    display: inline-block;
+    background-color:black;
+ width: 157.3px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a.horz:hover{
+    background-color: grey;
+    color: black;
+    float: left;
+} 
+
+#home{
+    color: orange;
+}
 
